@@ -1,0 +1,44 @@
+body {
+    background: black;
+}
+.calculator {
+    height: 400px;
+    width: 300px;
+}
+
+.display {
+    background: #A9A9A9;
+    color: white; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 29px;
+    box-sizing: border-box;
+    height: 20%;
+    font-size: 24px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80%;
+}
+
+.button {
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: black;
+    height: 25%;
+    cursor: pointer;
+}
+
+
+
+
